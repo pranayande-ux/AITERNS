@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AITERNS - Your AI Career Navigator</title>
+    <meta name="description" content="Transform your career journey with AI-powered resume analysis, smart job matching, and personalized guidance. Your future starts here." />
+    <meta name="author" content="AITERNS" />
+    <meta name="keywords" content="AI career guidance, resume analysis, job matching, career coaching, professional development" />
+
+    <meta property="og:title" content="AITERNS - Your AI Career Navigator" />
+    <meta property="og:description" content="Transform your career journey with AI-powered resume analysis, smart job matching, and personalized guidance." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <script>
+       (function () {
+            // Define chatbot configuration
+            window.userChatbotConfig = {
+                chatbotId: "1304971e-9112-4dbb-ae35-8224c8fe5952",
+                privateKey: "MTMwNDk3MWU5MTEyNGRiYmFlMzU4MjI0YzhmZTU5NTJfNTMx",
+            };
+            // Dynamically load chatbot plugin
+            const chatbotScript = document.createElement("script");
+            chatbotScript.src = "https://chatjs.hyperleap.ai/chatbot.min.js";
+            chatbotScript.async = true; // Load asynchronously for better performance
+            document.head.appendChild(chatbotScript);
+        })();
+    </script>
+    
+  </body>
+</html>
