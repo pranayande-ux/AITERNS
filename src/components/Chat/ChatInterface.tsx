@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { ModelSelector } from "@/components/UI/ModelSelector";
+import { ModelSelector } from "@/components/ui/ModelSelector";
 import { Progress } from "@/components/ui/progress";
 
 interface Message {

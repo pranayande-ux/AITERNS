@@ -3,7 +3,7 @@ import { Header } from "@/components/Layout/Header";
 import { Sidebar } from "@/components/Layout/Sidebar";
 import { HeroSection } from "@/components/Hero/HeroSection";
 import { AIBotMascot } from "@/components/AI/AIBotMascot";
-import { PopupChat } from "@/components/UI/PopupChat";
+import { PopupChat } from "@/components/ui/PopupChat";
 import { ProgressTracker } from "@/components/Dashboard/ProgressTracker";
 import { useLocalStorage } from "@/hooks/useLocalStorage";
 import Home from "@/pages/Home";
